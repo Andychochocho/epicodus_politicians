@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Beliefs</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political Belief Meter</h1>
+      <p>Please complete the form to find out how conservative or liberal you are.</p>
+
+      <form id="politics">
+        <label for="Name">Name:</label>
+        <input class="name" type="text">
+        <br>
+        <br>
+        <label for="anger">On a scale from 1-4, how angry are you? 1 being the lowest and 4 being this highest.</label>
+        <select class="form-control" id="angry">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br>
+        <br>
+        <label for="happiness">On a scale from 1-4, how happy are you? 1 being the lowest and 4 being the highest.</label>
+        <select class="form-control" id="happiness">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <br>
+        <br>
+
+        <button type="submit" class="btn">Your political scale</button>
+      </form>
+
+      <br>
+      <br>
+      <br>
+
+        <div id="politician1"><span class="name"></span>
+         <img class="img-responsive" src="img/politican1.jpg">
+        </div>
+        <div id="politician2"><span class="name"></span>
+          <img class="img-responsive" src="img/politican2.jpg">
+        </div>
+        <div id="politician3"><span class="name"></span>
+          <img class="img-responsive" src="img/politican3.jpg">
+        </div>
+        <div id="politician4"><span class="name"></span>
+          <img class="img-responsive" src="img/politican4.jpg">
+        </div>
+
+    </div>
+  </body>
+</html>
